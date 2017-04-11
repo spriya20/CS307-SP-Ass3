@@ -16,55 +16,82 @@
 - Monday -  4:00 pm to 2:00 am
 
 ---
+### Introduction
+Objective of this assignment is to monitor different servers of IIT Mandi namely:
+1. students.iitmandi.ac.in
+2. insite.iitmandi.ac.in
+3. webopac.iitmandi.ac.in
+4. network.iitmandi.ac.in
+
+Different services analysed on all servers is :
+1. CPU load
+2. RAM usage
+3. User load
+4. Ping time
+
+Location of data collection on Thursday : G3 Hostel on Laptop 1
+Location of data collection on Saturday  : B7 Hostel on Laptop 2
+Location of data collection on Monday   : B7 Hostel on Laptop 2
+
+Specification:
+Laptop 1:
+RAM : 8GB DDR4 Memory
+Processor : Intel Core i5-6200U 2.3GHz
+
+Laptop 2:
+RAM : 4GB DDR3 Memory
+Processor: Intel Core i7 2.2 Ghz
+
+---
 
 #### Graphs
 ##### Thursday : (8:00 pm to 2:00 am)
 
 (Note: The time written in the X-axis of the following graphs do not match, due to wrong System Time and Date Settings. These observations have been taken in the time interval mentioned above. Here, 1:30 am of the System time represents 8:00 pm IST.)
 
-- students.iitmandi.ac.in  
+#### students.iitmandi.ac.in  
 
 ![cpu Students](https://github.com/HarshGupta11/nagios/blob/master/students/cpu.png?raw=true)
 ![ram Students](https://github.com/HarshGupta11/nagios/blob/master/students/ram.png?raw=true)
 ![ping Students](https://github.com/HarshGupta11/nagios/blob/master/students/ping.png?raw=true)
 ![user Students](https://github.com/HarshGupta11/nagios/blob/master/students/user.png?raw=true)  
 
-- insite.iitmandi.ac.in  
+#### insite.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/HarshGupta11/nagios/blob/master/insite/cpu.png?raw=true)
 ![ram insite](https://github.com/HarshGupta11/nagios/blob/master/insite/ram.png?raw=true)
 ![ping insite](https://github.com/HarshGupta11/nagios/blob/master/insite/ping.png?raw=true)
 ![user insite](https://github.com/HarshGupta11/nagios/blob/master/insite/user.png?raw=true)  
 
-- network.iitmandi.ac.in  
+#### network.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/HarshGupta11/nagios/blob/master/network/cpu.png?raw=true)
 ![ram insite](https://github.com/HarshGupta11/nagios/blob/master/network/ram.png?raw=true)
 ![ping insite](https://github.com/HarshGupta11/nagios/blob/master/network/ping.png?raw=true)
 ![user insite](https://github.com/HarshGupta11/nagios/blob/master/network/user.png?raw=true)  
 
-- webopac.iitmandi.ac.in  
+#### webopac.iitmandi.ac.in  
 
 ![ping webopac](https://github.com/HarshGupta11/nagios/blob/master/webopac/ping.png?raw=true)  
 
-##### Saturday : (8:00 pm to 2:00 am)
+#### Saturday : (8:00 pm to 2:00 am)
 (Note: The time written in the X-axis of the following graphs do not match, due to wrong System Time and Date Settings. These observations have been taken in the time interval mentioned above. Here, 1:30 am of the System time represents 8:00 pm IST.)
 
-- students.iitmandi.ac.in  
+#### students.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/spriya20/Saturday-Data/blob/master/student_cpu.png?raw=true)
 ![ssh insite](https://github.com/spriya20/Saturday-Data/blob/master/student_ssh.png?raw=true)
 ![ping insite](https://github.com/spriya20/Saturday-Data/blob/master/student_ping.png?raw=true)
 ![user insite](https://github.com/spriya20/Saturday-Data/blob/master/student_user.png?raw=true)  
 
-- insite.iitmandi.ac.in  
+#### insite.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_cpu.png?raw=true)
 ![ram insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_ram.png?raw=true)
 ![ping insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_ping.png?raw=true)
 ![user insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_user.png?raw=true)  
 
-- network.iitmandi.ac.in  
+#### network.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/spriya20/Saturday-Data/blob/master/network_cpu.png?raw=true)
 ![ram insite](https://github.com/spriya20/Saturday-Data/blob/master/network_ram.png?raw=true)
@@ -72,27 +99,27 @@
 ![user insite](https://github.com/spriya20/Saturday-Data/blob/master/network_user.png?raw=true)  
 ![ssh insite](https://github.com/spriya20/Saturday-Data/blob/master/network_ssh.png?raw=true)  
 
-- webopac.iitmandi.ac.in  
+#### webopac.iitmandi.ac.in  
 
 ![ping webopac](https://github.com/spriya20/Saturday-Data/blob/master/webopac_ping.png?raw=true)
 
 ##### Monday : (4:00 pm to 2:00 am)
 
-- students.iitmandi.ac.in  
+#### students.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_cpu.png?raw=true)
 ![ssh insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_ssh.png?raw=true)
 ![ping insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_ping.png?raw=true)
 ![user insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_user.png?raw=true)  
 
-- insite.iitmandi.ac.in  
+#### insite.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_cpu.png?raw=true)
 ![ram insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_ram.png?raw=true)
 ![ping insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_ping.png?raw=true)
 ![user insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_user.png?raw=true)  
 
-- network.iitmandi.ac.in  
+#### network.iitmandi.ac.in  
 
 ![cpu insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_Cpu.png?raw=true)
 ![ram insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_ram.png?raw=true)
@@ -100,7 +127,7 @@
 ![user insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_user.png?raw=true)  
 ![ssh insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_ssh.png?raw=true)  
 
-- webopac.iitmandi.ac.in  
+#### webopac.iitmandi.ac.in  
 
 ![ping webopac](https://github.com/spriya20/CS307-SP-Ass3/blob/master/webopac_ping.png?raw=true)
 ![ssh webopac](https://github.com/spriya20/CS307-SP-Ass3/blob/master/webopac_ssh.png?raw=true)
@@ -133,5 +160,14 @@
 ##### webopac.iitmandi.ac.in
 - Ping did not seem to follow any trend and there is insufficient data to correlate other factors.
 - Data of CPU usage, RAM usage and User load could not be recieved.
+
+---
+#### References
+1. https://www.digitalocean.com/community/tutorials/how-to-install-nagios-4-and-monitor-your-servers-on-ubuntu-14-04
+2. http://www.naemon.org/documentation/usersguide/addon-pnp-quickstart.html
+3. https://assets.nagios.com/downloads/nagioscore/docs/nrpe/NRPE.pdf
+4. http://www.unixmen.com/how-to-install-nagios-core-4-1-1-in-ubuntu-15-10/
+
+
 
 ---
