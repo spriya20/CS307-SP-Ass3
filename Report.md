@@ -13,7 +13,7 @@
 ### Time Slots of Data Collection
 - Thursday - 8:00 pm to 2:00 am
 - Saturday -  8:00 pm to 2:00 am
-- Monday -  8:00 pm to 2:00 am
+- Monday -  4:00 pm to 2:00 am
 
 ---
 
@@ -115,14 +115,15 @@
 #### Server Specific Observations
 ##### students.iitmandi.ac.in
 - The User load is significantly higher for 10-11 pm and 12-2 am. Most students don't sleep very early in the night, and they prefer to check their webmail before going to sleep. This might be the reason for the trend in graph.
-- CPU load also showing the similar graph because more cpu power is needed to handle large users. This trend remain same on working as well as on holidays.
+- CPU load also showing the similar graph because more CPU power is needed to handle large users. This trend remain same on working days as well as on holidays.
 - RAM Usage does not show any regular trend and can be assumed to behave in an independent manner. This may happen because no user has perform any task leading to higher usage of RAM. 
 - The ping time is also large for these intervals, verifying the higher correlation of ping time with CPU load and User load.
 - Comparing user load of different days, number of users connecting is as high as 400 at around 2 pm on Thursday, while it is as low as 40 around the same time on Sunday indicating that Sunday being a holiday the time i.e. 2 pm is a prime time to have lunch and hence the low traffic.
 
 ##### insite.iitmandi.ac.in
-- User load on each day is almost similar except for Sunday for which it is a bit less, indicating that people often check insite services.
+- The User and CPU load is almost similar upto 12 or 1 am, after which the load drops down to near zero, drastically. This maybe because most assignment submissions on Moodle have their deadlines at around 12 am, after which most students do not use it.
 - CPU load following the same trend as that of User Load.
+- On Thursday night after 12pm, ping time reaches to very higher level, leading to no response and timeout from the insite server and hence nagios showing zeroes values for cpu load, user load and ram usage.
 - Ping time doesn't follow any particular trend.
 
 ##### network.iitmandi.ac.in
