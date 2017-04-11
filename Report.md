@@ -118,7 +118,6 @@
 - CPU load also showing the similar graph because more CPU power is needed to handle large users. This trend remain same on working days as well as on holidays.
 - RAM Usage does not show any regular trend and can be assumed to behave in an independent manner. This may happen because no user has perform any task leading to higher usage of RAM. 
 - The ping time is also large for these intervals, verifying the higher correlation of ping time with CPU load and User load.
-- Comparing user load of different days, number of users connecting is as high as 400 at around 2 pm on Thursday, while it is as low as 40 around the same time on Sunday indicating that Sunday being a holiday the time i.e. 2 pm is a prime time to have lunch and hence the low traffic.
 
 ##### insite.iitmandi.ac.in
 - The User and CPU load is almost similar upto 12 or 1 am, after which the load drops down to near zero, drastically. This maybe because most assignment submissions on Moodle have their deadlines at around 12 am, after which most students do not use it.
