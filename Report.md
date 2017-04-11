@@ -126,10 +126,9 @@
 - Ping time doesn't follow any particular trend.
 
 ##### network.iitmandi.ac.in
-- User load on network is low as compared to insite or student servers
-- The RAM Usage on network server is almost constant throughout the time and doesn't change on any day at any time.
-- On thursday at around 11:00 am, when there is a peak in ping time of all services of iitmandi, the ping of network service goes critical to 5,000 ms indicating some sort of network failure as there are no huge differences visible in user load at that time.
-- CPU load follow the same trend as that of User Load.
+- Compared to insite or student servers, the User and CPU load for network is pretty low.
+- The RAM Usage on network server is almost constant at all times, on all three days.
+- Everyday, sometime before midnight, the CPU usage peaks, while the User load doesn't seem to follow a fixed pattern.
 
 ##### webopac.iitmandi.ac.in
 - Ping did not seem to follow any trend and there is insufficient data to correlate other factors.
