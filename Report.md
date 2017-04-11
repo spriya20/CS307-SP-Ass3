@@ -75,7 +75,6 @@
 - webopac.iitmandi.ac.in  
 
 ![ping webopac](https://github.com/spriya20/Saturday-Data/blob/master/webopac_ping.png?raw=true)
-![ssh webopac](https://github.com/spriya20/Saturday-Data/blob/master/webopac_ssh.png?raw=true)
 
 ##### Monday : (4:00 pm to 2:00 am)
 
