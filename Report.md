@@ -76,7 +76,7 @@
 ![ping webopac](https://github.com/spriya20/CS307-SP-Ass3/blob/master/webopac_ping.png?raw=true)
 ![ssh webopac](https://github.com/spriya20/CS307-SP-Ass3/blob/master/webopac_ssh.png?raw=true)
 
-##### Monday : (8:00 pm to 2:00 am)
+##### Monday : (4:00 pm to 2:00 am)
 
 - students.iitmandi.ac.in  
 
@@ -114,9 +114,10 @@
 ---
 #### Server Specific Observations
 ##### students.iitmandi.ac.in
-- On an average working day the user load is highest around 11 pm to 12 am, and this might be because students are in the class and hence there is less traffic on server.
-- CPU Load matches with the data of User load and is directly proportional to User Load.
-- Ping times increases during the time there are more users on network, indicating that students connect to the student server to check their emails or browse internet when they are not in their classes.
+- The User load is significantly higher for 10-11 pm and 12-2 am. Most students don't sleep very early in the night, and they prefer to check their webmail before going to sleep. This might be the reason for the trend in graph.
+- CPU load also showing the similar graph because more cpu power is needed to handle large users. This trend remain same on working as well as on holidays.
+- RAM Usage does not show any regular trend and can be assumed to behave in an independent manner. This may happen because no user has perform any task leading to higher usage of RAM. 
+- The ping time is also large for these intervals, verifying the higher correlation of ping time with CPU load and User load.
 - Comparing user load of different days, number of users connecting is as high as 400 at around 2 pm on Thursday, while it is as low as 40 around the same time on Sunday indicating that Sunday being a holiday the time i.e. 2 pm is a prime time to have lunch and hence the low traffic.
 
 ##### insite.iitmandi.ac.in
