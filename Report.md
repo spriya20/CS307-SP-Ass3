@@ -20,7 +20,7 @@
 #### Graphs
 ##### Thursday : (8:00 pm to 2:00 am)
 
-(Note: The time written in the X-axis of the following graphs do not match, due to wrong System Time and Date Settings. These observations have been taken in the time interval mentioned above.)
+(Note: The time written in the X-axis of the following graphs do not match, due to wrong System Time and Date Settings. These observations have been taken in the time interval mentioned above. Here, 1:30 am of the System time represents 8:00 pm IST.)
 
 - students.iitmandi.ac.in  
 
@@ -48,33 +48,34 @@
 ![ping webopac](https://github.com/HarshGupta11/nagios/blob/master/webopac/ping.png?raw=true)  
 
 ##### Saturday : (8:00 pm to 2:00 am)
+(Note: The time written in the X-axis of the following graphs do not match, due to wrong System Time and Date Settings. These observations have been taken in the time interval mentioned above. Here, 1:30 am of the System time represents 8:00 pm IST.)
 
 - students.iitmandi.ac.in  
 
-![cpu insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_cpu.png?raw=true)
-![ssh insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_ssh.png?raw=true)
-![ping insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_ping.png?raw=true)
-![user insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/student_user.png?raw=true)  
+![cpu insite](https://github.com/spriya20/Saturday-Data/blob/master/student_cpu.png?raw=true)
+![ssh insite](https://github.com/spriya20/Saturday-Data/blob/master/student_ssh.png?raw=true)
+![ping insite](https://github.com/spriya20/Saturday-Data/blob/master/student_ping.png?raw=true)
+![user insite](https://github.com/spriya20/Saturday-Data/blob/master/student_user.png?raw=true)  
 
 - insite.iitmandi.ac.in  
 
-![cpu insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_cpu.png?raw=true)
-![ram insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_ram.png?raw=true)
-![ping insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_ping.png?raw=true)
-![user insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/insite_user.png?raw=true)  
+![cpu insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_cpu.png?raw=true)
+![ram insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_ram.png?raw=true)
+![ping insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_ping.png?raw=true)
+![user insite](https://github.com/spriya20/Saturday-Data/blob/master/insite_user.png?raw=true)  
 
 - network.iitmandi.ac.in  
 
-![cpu insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_Cpu.png?raw=true)
-![ram insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_ram.png?raw=true)
-![ping insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_ping.png?raw=true)
-![user insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_user.png?raw=true)  
-![ssh insite](https://github.com/spriya20/CS307-SP-Ass3/blob/master/network_ssh.png?raw=true)  
+![cpu insite](https://github.com/spriya20/Saturday-Data/blob/master/network_cpu.png?raw=true)
+![ram insite](https://github.com/spriya20/Saturday-Data/blob/master/network_ram.png?raw=true)
+![ping insite](https://github.com/spriya20/Saturday-Data/blob/master/network_ping.png?raw=true)
+![user insite](https://github.com/spriya20/Saturday-Data/blob/master/network_user.png?raw=true)  
+![ssh insite](https://github.com/spriya20/Saturday-Data/blob/master/network_ssh.png?raw=true)  
 
 - webopac.iitmandi.ac.in  
 
-![ping webopac](https://github.com/spriya20/CS307-SP-Ass3/blob/master/webopac_ping.png?raw=true)
-![ssh webopac](https://github.com/spriya20/CS307-SP-Ass3/blob/master/webopac_ssh.png?raw=true)
+![ping webopac](https://github.com/spriya20/Saturday-Data/blob/master/webopac_ping.png?raw=true)
+![ssh webopac](https://github.com/spriya20/Saturday-Data/blob/master/webopac_ssh.png?raw=true)
 
 ##### Monday : (4:00 pm to 2:00 am)
 
@@ -108,8 +109,8 @@
 ---
 
 #### General Observation
-- CPU Load and RAM Usage of Server is directly proportional to the number of Users on a particular day.
-- On a working day the average number of users of academic services like insite and webopac is higher in comparison to a holiday.
+- CPU Load and RAM Usage of Server is directly proportional to the number of Users at that instant.
+- The average number of users of academic services like insite and webopac is higher on working days, in comparison to a holiday.
 
 ---
 #### Server Specific Observations
